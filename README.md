@@ -22,3 +22,8 @@ git commit -m ".gitignore is now working"
 ```
 git filter-branch --tree-filter "rm -f file_name" HEAD
 ```
+
+### リポジトリの移行  
+```
+git remote set-url origin new_url
+```
